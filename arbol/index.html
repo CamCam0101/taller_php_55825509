@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Árbol binario</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <h1>Construir árbol binario</h1>
+    <a href="../index.html">Volver al menú</a>
+    <br><br>
+    <p>Ingrese mínimo dos recorridos, con los nodos separados por espacios, comas o flechas.
+        Ejemplo: A B D E C</p>
+    <form action="resultado.php" method="post">
+        <label for="preID">Preorden:</label>
+        <input type="text" name="preorden" id="preID" placeholder="A B D E C">
+        <br><br>
+        <label for="inID">Inorden:</label>
+        <input type="text" name="inorden" id="inID" placeholder="D B E A C">
+        <br><br>
+        <label for="postID">Postorden:</label>
+        <input type="text" name="postorden" id="postID" placeholder="D E B C A">
+        <br><br>
+        <button type="submit">Construir árbol</button>
+    </form>
+</body>
+
+</html>

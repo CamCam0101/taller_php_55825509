@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci y Factorial</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <h1>Sucesión de Fibonacci o Factorial</h1>
+    <a href="../index.html">Volver al menú</a>
+    <br><br>
+    <form action="resultado.php" method="post">
+        <label for="numeroID">Ingrese el número:</label>
+        <input type="number" name="numero" id="numeroID" min="1" required>
+        <br><br>
+        <label for="operacionID">Operación:</label>
+        <select name="operacion" id="operacionID" required>
+            <option value="fibonacci">Sucesión de Fibonacci</option>
+            <option value="factorial">Factorial</option>
+        </select>
+        <br><br>
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+
+</html>

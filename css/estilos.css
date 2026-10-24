@@ -1,0 +1,165 @@
+html {
+    background: linear-gradient(135deg, #4a6fa5, #8e5ea2);
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #4a6fa5;
+    margin-top: 0;
+}
+
+h2,
+h3 {
+    color: #6a4c93;
+}
+
+/* enlaces (Volver, Calcular otro...) */
+a {
+    color: #4a6fa5;
+    text-decoration: none;
+    float: right;
+    margin-left: 15px;
+}
+
+nav li a {
+    float: none;
+    margin-left: 0;
+}
+
+br {
+    clear: both;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* formularios */
+label {
+    font-weight: bold;
+}
+
+input,
+select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+input:focus,
+select:focus {
+    border-color: #4a6fa5;
+    outline: none;
+}
+
+button {
+    background-color: #4a6fa5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2f4b7c;
+}
+
+/* resultados */
+.green {
+    background-color: #e8f5e9;
+    color: #1b5e20;
+    padding: 10px 15px;
+    border-left: 5px solid #43a047;
+    border-radius: 5px;
+}
+
+.error {
+    background-color: #ffebee;
+    color: #b71c1c;
+    padding: 10px 15px;
+    border-left: 5px solid #e53935;
+    border-radius: 5px;
+}
+
+.resultado {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* tablas (binario) */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #4a6fa5;
+    color: white;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* menú principal (index.html) */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 12px;
+}
+
+nav li a {
+    display: block;
+    background-color: #4a6fa5;
+    color: white;
+    padding: 14px;
+    border-radius: 10px;
+    margin-right: 0;
+    text-align: center;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+nav li a:hover {
+    background-color: #6a4c93;
+    transform: scale(1.03);
+    text-decoration: none;
+}
+
+/* árbol y listas */
+pre {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
